@@ -71,11 +71,11 @@ class VersionFileHandler:
     def __del__(self):
         self.write()
 
-    def get(self, key) -> int | None:
+    def get(self, key: str) -> int | None:
         """Get a value from the data by key."""
         return self._data[key] if key in self._data else None
 
-    def set(self, key, value) -> None:
+    def set(self, key: str, value: int) -> None:
         """Set a value on the key in the data."""
         self._data[key] = value
 
