@@ -1,4 +1,4 @@
-# PluginUpdater
+# Plugin Updater
 
 This script allows you to automatically download/update Minecraft plugins.
 
